@@ -1,0 +1,9 @@
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+  position: static;
+}
+h2 {
+  color: red;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1iYXIvbmF2LWJhci5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQXNCO0VBQ2xCLGdCQUFBOztBQUdKO0VBQ0ksVUFBQSIsInNvdXJjZXNDb250ZW50IjpbIi5uYXZiYXItZml4ZWQtYm90dG9tLCAubmF2YmFyLWZpeGVkLXRvcCB7XHJcbiAgICBwb3NpdGlvbjogc3RhdGljO1xyXG59XHJcblxyXG5oMiB7XHJcbiAgICBjb2xvcjogcmVkO1xyXG59XHJcbiJdLCJmaWxlIjoibmF2LWJhci9uYXYtYmFyLmNzcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

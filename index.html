@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>start2</title>
+
+    <!-- build:css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/src/bower_modules/bootstrap-css/css/bootstrap.min.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/src/tmp/css/index.css">
+    <link rel="stylesheet" href="/src/tmp/css/about-page/about.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- build:js -->
+      <script src="app/require.config.js"></script>
+      <script data-main="app/startup" src="bower_modules/requirejs/require.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <nav-bar params="route: route"></nav-bar>
+    <div id="page" class="container" data-bind="component: { name: route().page, params: route }"></div>
+  </body>
+</html>
